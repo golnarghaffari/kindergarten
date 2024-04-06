@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+@font-face {
+    font-family: iran;
+    src: url("../font/IRANSans_Light.ttf");
+}
+
+@font-face {
+    font-family: oleo;
+    src: url("../font/OleoScript-Regular.ttf");
+}
+
+@font-face {
+    font-family: playfair;
+    src: url("../font/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Nast;
+    src: url("../font/NotoNastaliqUrdu-VariableFont_wght.ttf");
+}
+
+.radial {
+    --mask: radial-gradient(30px at 50% 30px, #0000 97%, #000) 50% -30px/ 55.5px 100%;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+}
+
+/* @keyframes move1 {
+    to{ transform: translatey(100px); }
+} */
